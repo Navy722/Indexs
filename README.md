@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -81,7 +80,7 @@
             localStorage.setItem('username', username);
             localStorage.setItem('password', password); // ในกรณีจริงควรทำการแฮชก่อนเก็บ
 
-            alert("Login successful! Your data has been saved.");
+            alert("อุ๊ยมีไก่หลงเข้ามาพิมพ์ !ฮิฮิ!");
             errorMessage.textContent = "";
         } else {
             errorMessage.textContent = "Please enter both username and password.";
